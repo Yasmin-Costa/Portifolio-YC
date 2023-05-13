@@ -210,11 +210,9 @@ div.texto {
     background-attachment: fixed;
     background-size: cover;
     height: 500px;
-    margin: 15px 0;
+    margin: 80px auto;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
+   
 }
 
 .projetos {
@@ -226,13 +224,18 @@ div.texto {
 .h2-projeto {
     padding: 20px;
     color: rgb(255, 255, 255);
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    margin: 0 auto 40px;
     background-color: rgba(0, 0, 0, 0.315);
     font-family: 'fonte2';
     font-size: 3em;
 }
+
+.h2-projeto h2{
+    text-align: center;
+}
+
+
 .projeto01 {
     background-color: rgba(0, 0, 0, 0.774);
     width: 300px;
@@ -242,21 +245,22 @@ div.texto {
 
 .a-projeto1 {
     color: white;
-    font-family: fonte4;
+    font-family: 'fonte4';
     text-align: center;
-    width: 300px;
-    height: 200px;
+    
 }
 
 
 .a-projetos {
+    background-color: rgba(49, 10, 10, 0.877);
     color: rgb(255, 255, 255);
     font-family: 'fonte2';
     font-weight: bolder;
     padding: 15px;
-    background-color: rgba(61, 10, 10, 0.61);
+    
     position: relative;
     top: 30px;
+    justify-content: center;
 }
 
 /***************************************************************/
@@ -282,4 +286,10 @@ footer {
     font-size: 1.2em;
     text-align: center;
     padding: 5px 0 15px 0;
+}
+
+.hr-footer {
+    border-bottom:  1.5px solid #252323;
+    margin: 10px;
+
 }
