@@ -36,7 +36,7 @@
  }
 
 header {
-    min-height: 80px;
+   
     padding-top: 10px;
     
 }
@@ -45,6 +45,7 @@ header {
  #container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
    
  }
 
@@ -104,6 +105,16 @@ header {
 
 /****************************************************/
   /*tela de inicio --HOME*/
+
+  main {
+    min-width: 300px;
+    
+    margin: 0px auto;
+    background-color: #dbd9d99d;
+    
+    
+}
+  
 .inicio {
     width: 80%;
     display: flex;
